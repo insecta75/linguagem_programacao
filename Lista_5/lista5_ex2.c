@@ -8,7 +8,6 @@ Logo, 220 e 284 são números amigos.
 O protótipo da função deve ser:
 int amigos(int a, int b);
 */
-
 #include <stdio.h>
 
 int amigos(int a, int b);
@@ -49,6 +48,3 @@ int amigos(int a, int b) {
         return 0;
     }
 }
-
-
-
