@@ -2,7 +2,7 @@
 Considere o código em C abaixo (assuma que no lugar de D seja usado o último dígito de seu RA):
 
 (a) Determine quais são as variáveis locais e globais deste programa. Para cada variável local identifique a que função esta pertence.
-(b) (1.5 pontos) Mostre o que será impresso na tela do computador quando for executado este programa (lembre-se de usar o último dígito de seu RA no lugar de D).
+(b) Mostre o que será impresso na tela do computador quando for executado este programa (lembre-se de usar o último dígito de seu RA no lugar de D).
 */
 #include <stdio.h>
 
