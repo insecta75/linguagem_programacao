@@ -1,5 +1,5 @@
 /* Exercício 6:
-Escreva uma função chamada media que recebe um vetor de double, um inteiro n que indica o tamanho do vetor, e um ponteiro para inteiro i. 
+Escreva uma função chamada media que recebe um vetor de double, um inteiro n que indica o tamanho do vetor, e um ponteiro para inteiro i.
 A função deve retornar a média dos n elementos no vetor e no endereço apontado por i deve retornar a posição do elemento que tem o valor mais próximo da média.
 O protótipo da função deve ser:
 double media(double vet[], int n, int *i);
@@ -28,8 +28,8 @@ return 0;
 }
 
 double media(double vet[], int n, int *i) {
-double sum=0, mean, dmax, dmin;
-int j, min, max;
+double sum=0, mean, dmax, dmin, max, min;
+int j, posmax;
 
     for(j=0; j < n; j++) {
         sum = sum + vet[j];
@@ -38,8 +38,9 @@ int j, min, max;
 
     for(j=0; j < n; j++) {
         if(vet[j] > mean) {
-            max = j;
-            min = j-1;
+            max = vet[j];
+            min = vet[j-1];
+            posmax = j;
             break;
         }
     }
@@ -47,9 +48,10 @@ int j, min, max;
     dmin = mean - min;
 
     if(dmax > dmin) {
-        *i = min;
+        *i = posmax - 1;
     } else {
-        *i = max;
+        *i = posmax;
     }
 return mean;
 }
+

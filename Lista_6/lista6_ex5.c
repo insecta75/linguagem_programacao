@@ -60,4 +60,5 @@ int primo(int n, int *p1, int *p2) {
             }
         }
     }
+return 0;
 }

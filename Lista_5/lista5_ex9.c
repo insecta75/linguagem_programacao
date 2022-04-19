@@ -78,7 +78,7 @@ int magico(int mat[30][30], int n) {
     sum=0;
     ///Soma diagonal secundaria;
     for(i = 0, j = n-1; i < n, j >= 0; i++, j--) {
-        sum = sum + mat[i][i];
+        sum = sum + mat[i][j];
     }
     temp[c] = sum;
     ///Comparacao final
