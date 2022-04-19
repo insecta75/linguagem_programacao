@@ -6,7 +6,7 @@ Aqui se encontram as sugestões de resolução dos exercícios das listas fornec
 
 ## Sobre a Disciplina
 
-Essa disciplina tem como finalidade em solucionar problemas utilizando a lógica de programação e a implementação de programas por meio de uma linguagem de programação, no caso, a linguagem C. Nessa disciplina os seguintes tópicos são abordados: 
+Essa disciplina tem como finalidade em solucionar problemas utilizando a lógica de programação e a implementação de programas por meio de uma linguagem de programação, no caso, a linguagem C. Para efeito de comparação, a maioria dos exercícios também foram implementados em Python. Nessa disciplina os seguintes tópicos são abordados: 
 
 * variáveis, constantes, operadores e expressões; 
 * comando de desvio; 
