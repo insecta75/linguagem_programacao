@@ -41,10 +41,10 @@ int buscaBinaria(int vet[], int ini, int fim, int chave) {
             return meio;
         } else if(vet[meio] > chave) {
             fim = meio - 1;
-            buscaBinaria(vet, ini, fim, chave);
+            return buscaBinaria(vet, ini, fim, chave);
         } else {
             ini = meio + 1;
-            buscaBinaria(vet, ini, fim, chave);
+            return buscaBinaria(vet, ini, fim, chave);
         }
     }
 }

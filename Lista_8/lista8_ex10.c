@@ -33,6 +33,6 @@ int buscaSequencial(int vet[], int tam, int chave) {
         if(vet[tam-1] == chave) {
             return tam-1;
         }
-        buscaSequencial(vet, tam-1, chave);
+        return buscaSequencial(vet, tam-1, chave);
     }
 }
